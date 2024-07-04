@@ -21,7 +21,7 @@
         source /etc/bashrc.local
       '';
       targetPkgs = pkgs: with pkgs; [
-        common.bashrcLocal jdk8
+        common.bashrcLocal jdk11
       ];
     }).env;
   };
